@@ -6,30 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Películas para ti</title>
 </head>
 
 <body>
   <header class="header-content">
-    <nav class="header-container">
-      <figure><img class="image" id="logo-image" src="" alt=""></figure>
-      <ul class="login">
-        <li>Iniciar sesión</li>
-        <li>Registrarse</li>
+    <nav class="navigation-bar">
+      <figure class="logo-container"><a href=""><img class="logo-image" id="logo-image" src="icons/clapperboard.svg"
+            alt="Logo"></a></figure>
+      <ul class="login-container">
+        <li class="login-button"><a href="">Iniciar sesión</li></a>
+        <li class="login-button"><a href="">Registrarse</a></li>
       </ul>
     </nav>
   </header>
-  <main class="main-content">
-    <div class="main-container" id="slider-container">
-      <ul>
-        <li><img src="" alt=""></li>
-      </ul>
+  <main class="main-content" , id="main-content">
+    <div class="slider-container" id="slider-container">
+      <div class="slider-list" id="slider-list"></div>
+      <div class="slider-button slider-button-right">&#60;</div>
+      <div class="slider-button slider-button-left">&#62;</div>
     </div>
-    <div class="main-container" id="card-container">
-      <ul></ul>
+    <div class="card-container" id="card-container">
+      <div class="card-list" id="card-list"></div>
     </div>
   </main>
-  <footer></footer>
+  <footer><small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small></footer>
   <script src="scripts/script.js"></script>
 </body>
 

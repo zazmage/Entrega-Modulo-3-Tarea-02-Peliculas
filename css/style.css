@@ -31,3 +31,65 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   --cultured: #f5f3f4ff;
   --white: #ffffffff;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation-bar {
+  background-color: var(--rich-black-fogra-39);
+  padding: 5px;
+}
+
+.logo-container {
+  display: inline;
+}
+
+.login-container {
+  display: inline;
+}
+
+.login-button {
+  display: inline;
+  color: var(--white);
+}
+
+.logo-image {
+  width: 50px;
+}
+
+.main-content {
+  background-color: var(--eerie-black);
+}
+
+.slider-container {
+  width: 90%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider-list {
+  display: flex;
+  height: 400px;
+  background-color: red;
+}
+
+.slider-section {
+  width: 100%;
+}
+
+.slider-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card-container {
+}
+
+.card-list {
+}
+
+.card-image {
+}
