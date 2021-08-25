@@ -41,6 +41,7 @@ const slideLeft = () => {
         const $sliderImage = document.createElement("img");
         $sliderSection.setAttribute("class", "slider-section");
         $sliderImage.setAttribute("src", jsonObjects[key].bigImage);
+        $sliderImage.setAttribute("alt", jsonObjects[key].title);
         $sliderImage.setAttribute("class", "slider-image");
         $sliderSection.appendChild($sliderImage);
         $fragment.appendChild($sliderSection);
@@ -76,16 +77,18 @@ const slideLeft = () => {
   xhr.addEventListener("readystatechange", (e) => {
     if (xhr.readyState !== 4) return;
     if (xhr.status >= 200 && xhr.status < 300) {
-      const $card = document.getElementById("card-list");
+      const $card = document.getElementById("card-container");
 
       const jsonObjects = JSON.parse(xhr.responseText);
       for (const key in jsonObjects) {
-        const $cardList = document.createElement("li");
+        const $cardImageContainer = document.createElement("div");
         const $cardImage = document.createElement("img");
+        $cardImageContainer.setAttribute("class", "card-image-container");
         $cardImage.setAttribute("src", jsonObjects[key].smallImage);
+        $cardImage.setAttribute("alt", jsonObjects[key].title);
         $cardImage.setAttribute("class", "card-image");
-        $cardList.appendChild($cardImage);
-        $fragment.appendChild($cardList);
+        $cardImageContainer.appendChild($cardImage);
+        $fragment.appendChild($cardImageContainer);
       }
       $card.appendChild($fragment);
     } else {

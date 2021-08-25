@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/icons/clapperboard.svg">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Películas para ti</title>
@@ -12,12 +13,16 @@
 <body>
   <header class="header-content">
     <nav class="navigation-bar">
-      <figure class="logo-container"><a href=""><img class="logo-image" id="logo-image"
-            src="assets/icons/clapperboard.svg" alt="Logo"></a></figure>
-      <ul class="login-container">
-        <li class="login-button"><a href="">Iniciar sesión</li></a>
-        <li class="login-button"><a href="">Registrarse</a></li>
-      </ul>
+      <div class="logo-container">
+        <a href=""><img class="logo-image" id="logo-image" src="assets/icons/clapperboard.svg" alt="Logo"></a>
+      </div>
+      <h1 class="main-title">
+        <a href="">Películas para ti</a>
+      </h1>
+      <div class="login-container">
+        <a class="login-button" href="">Registrarse</a>
+        <a class="login-button" href="">Iniciar sesión</a>
+      </div>
     </nav>
   </header>
   <main class="main-content" , id="main-content">
@@ -27,11 +32,8 @@
         alt="">
       <img class="slider-button slider-button-left" id="slider-button-left" src="assets/icons/chevron-left-o.svg"
         alt="">
-      <!-- <div class="slider-button slider-button-right"><img src="icons/chevron-right-r.svg" alt=""></div>
-      <div class="slider-button slider-button-left"><img src="icons/arrow-left-r.svg" alt=""></div> -->
     </div>
     <div class="card-container" id="card-container">
-      <div class="card-list" id="card-list"></div>
     </div>
   </main>
   <footer><small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small></footer>

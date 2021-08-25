@@ -36,30 +36,48 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--blood-red);
+}
+
 .navigation-bar {
   background-color: var(--rich-black-fogra-39);
-  padding: 5px;
+  margin-bottom: 20px;
+  padding: 5px 20px 5px 20px;
 }
 
 .logo-container {
-  display: inline;
-}
-
-.login-container {
-  display: inline;
-}
-
-.login-button {
-  display: inline;
-  color: var(--white);
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logo-image {
   width: 50px;
 }
 
+.main-title {
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--white);
+  margin: 0;
+}
+
+.main-title a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.login-container {
+  float: right;
+}
+
+.login-button {
+  color: var(--white);
+  margin-right: 10px;
+}
+
 .main-content {
-  background-color: var(--eerie-black);
+  background-color: var(--blood-red);
 }
 
 .slider-container {
@@ -67,13 +85,14 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 20px;
   overflow: hidden;
   position: relative;
 }
 
 .slider-list {
   display: flex;
-  height: 400px;
+  height: 510px;
   margin-left: -100%;
 }
 
@@ -112,10 +131,18 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
 }
 
 .card-container {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.card-list {
+.card-image-container {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .card-image {
+  margin: 0;
+  padding: 0;
 }
