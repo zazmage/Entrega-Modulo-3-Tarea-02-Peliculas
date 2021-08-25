@@ -23,7 +23,7 @@
       console.log(xhr.statusText);
     }
   });
-  xhr.open("GET", "files/movies.json");
+  xhr.open("GET", "assets/files/movies.json");
   xhr.send();
 })();
 
@@ -49,6 +49,6 @@
       console.log(xhr.statusText);
     }
   });
-  xhr.open("GET", "files/movies.json");
+  xhr.open("GET", "assets/files/movies.json");
   xhr.send();
 })();

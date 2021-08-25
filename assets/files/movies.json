@@ -2,67 +2,67 @@
     {
         "title": "1917",
         "description": "En lo más crudo de la Primera Guerra Mundial, dos jóvenes soldados británicos, Schofield (George MacKay) y Blake (Dean-Charles Chapman) reciben una misión aparentemente imposible. En una carrera contrarreloj, deberán atravesar el territorio enemigo para entregar un mensaje que evitará un mortífero ataque contra cientos de soldados, entre ellos el propio hermano de Blake.",
-        "bigImage": "images/1917_big.jpg",
-        "smallImage": "images/1917_small.jpg"
+        "bigImage": "assets/images/1917_big.jpg",
+        "smallImage": "assets/images/1917_small.jpg"
     },
     {
         "title": "2001: A Space Odyssey",
         "description": "La película de ciencia-ficción por excelencia de la historia del cine narra los diversos periodos de la historia de la humanidad, no sólo del pasado, sino también del futuro. Hace millones de años, antes de la aparición del \"homo sapiens\", unos primates descubren un monolito que los conduce a un estadio de inteligencia superior. Millones de años después, otro monolito, enterrado en una luna, despierta el interés de los científicos. Por último, durante una misión de la NASA, HAL 9000, una máquina dotada de inteligencia artificial, se encarga de controlar todos los sistemas de una nave espacial tripulada.",
-        "bigImage": "images/2001_a_space_odyssey_big.jpg",
-        "smallImage": "images/2001_a_space_odyssey_small.jpg"
+        "bigImage": "assets/images/2001_a_space_odyssey_big.jpg",
+        "smallImage": "assets/images/2001_a_space_odyssey_small.jpg"
     },
     {
         "title": "Por un puñado de dólares",
         "description": "Tras la muerte de Juárez, en México dominan la injusticia y el terror. Joe (Clint Eastwood), un pistolero vagabundo, llega al pueblo fronterizo de San Miguel, donde dos familias se disputan el control del territorio, y entra al servicio del clan Rojo. Una noche, es testigo del intercambio de oro por armas entre mexicanos y soldados de la Unión. Remake en clave de western de \"Yojimbo\", de Akira Kurosawa.",
-        "bigImage": "images/a_fistful_of_dollars_big.jpg",
-        "smallImage": "images/a_fistful_of_dollars_small.jpg"
+        "bigImage": "assets/images/a_fistful_of_dollars_big.jpg",
+        "smallImage": "assets/images/a_fistful_of_dollars_small.jpg"
     },
     {
         "title": "Amores perros",
         "description": "En Ciudad de México, un fatal accidente automovilístico afecta trágicamente a tres personas. Octavio, un adolescente, decide escaparse con Susana, la esposa de su hermano; el Cofí, su perro, se convierte en el instrumento para conseguir el dinero necesario para la fuga. Al mismo tiempo, Daniel, un hombre maduro deja a su esposa y a sus hijos para irse a vivir con Valeria, una hermosa modelo. El mismo día en que celebran su nueva vida, el destino hace que Valeria sea víctima de un trágico accidente.",
-        "bigImage": "images/amores_perros_big.jpg",
-        "smallImage": "images/amores_perros_small.jpg"
+        "bigImage": "assets/images/amores_perros_big.jpg",
+        "smallImage": "assets/images/amores_perros_small.jpg"
     },
     {
         "title": "Blade Runner",
         "description": "Noviembre de 2019. A principios del siglo XXI, la poderosa Tyrell Corporation creó, gracias a los avances de la ingeniería genética, un robot llamado Nexus 6, un ser virtualmente idéntico al hombre pero superior a él en fuerza y agilidad, al que se dio el nombre de Replicante. Estos robots trabajaban como esclavos en las colonias exteriores de la Tierra. Después de la sangrienta rebelión de un equipo de Nexus-6, los Replicantes fueron desterrados de la Tierra. Brigadas especiales de policía, los Blade Runners, tenían órdenes de matar a todos los que no hubieran acatado la condena. Pero a esto no se le llamaba ejecución, se le llamaba \"retiro\". Tras un grave incidente, el ex Blade Runner Rick Deckard es llamado de nuevo al servicio para encontrar y \"retirar\" a unos replicantes rebeldes.",
-        "bigImage": "images/blade_runner_big.jpg",
-        "smallImage": "images/blade_runner_small.jpg"
+        "bigImage": "assets/images/blade_runner_big.jpg",
+        "smallImage": "assets/images/blade_runner_small.jpg"
     },
     {
         "title": "Ciudad de Dios",
         "description": "Basada en hechos reales, describe el mundo del crimen organizado en Cidade de Deus, un suburbio de Río de Janeiro, desde finales de los sesenta hasta principios de los ochenta, época durante la cual el tráfico de drogas y la violencia impusieron su ley en las favelas. A finales de los sesenta, Buscapé, un niño de 11 años tímido y sensible, observa a los niños duros de su barrio, sus robos, sus peleas, sus enfrentamientos diarios con la policía. Pero él sabe muy bien lo que quiere ser si consigue sobrevivir: fotógrafo. Dadinho, un niño de su edad que se traslada al barrio, sueña con ser el criminal más peligroso de Río de Janeiro y empieza su aprendizaje haciendo recados para los delincuentes locales. Admira a Cabeleira y su pandilla, que se dedican a atracar los camiones del gas. Un día Cabeleira le da a Dadinho la oportunidad de cometer su primer asesinato.",
-        "bigImage": "images/ciudade_de_deus_big.jpg",
-        "smallImage": "images/ciudade_de_deus_small.jpg"
+        "bigImage": "assets/images/ciudade_de_deus_big.jpg",
+        "smallImage": "assets/images/ciudade_de_deus_small.jpg"
     },
     {
         "title": "Ghost in the Shell",
         "description": "Año 2029. En una enorme ciudad asiática, una mujer robot policía -cyborg- investiga las siniestras actividades de un misteriososo hacker, un supercriminal que está invadiendo las autopistas de la información.",
-        "bigImage": "images/ghost_in_the_shell_big.jpg",
-        "smallImage": "images/ghost_in_the_shell_small.jpg"
+        "bigImage": "assets/images/ghost_in_the_shell_big.jpg",
+        "smallImage": "assets/images/ghost_in_the_shell_small.jpg"
     },
     {
         "title": "Kill Bill: Volume 1",
         "description": "El día de su boda, una asesina profesional (Thurman) sufre el ataque de algunos miembros de su propia banda, que obedecen las órdenes de Bill (David Carradine), el jefe de la organización criminal. Logra sobrevivir al ataque, aunque queda en coma. Cuatro años después despierta dominada por un gran deseo de venganza.",
-        "bigImage": "images/kill_bill_big.jpg",
-        "smallImage": "images/kill_bill_small.jpg"
+        "bigImage": "assets/images/kill_bill_big.jpg",
+        "smallImage": "assets/images/kill_bill_small.jpg"
     },
     {
         "title": "Psicosis",
         "description": "Marion Crane, una joven secretaria, tras cometer el robo de un dinero en su empresa, huye de la ciudad y, después de conducir durante horas, decide descansar en un pequeño y apartado motel de carretera regentado por un tímido joven llamado Norman Bates, que vive en la casa de al lado con su madre.",
-        "bigImage": "images/psycho_big.jpg",
-        "smallImage": "images/psycho_small.jpg"
+        "bigImage": "assets/images/psycho_big.jpg",
+        "smallImage": "assets/images/psycho_small.jpg"
     },
     {
         "title": "La chica danesa",
         "description": "Drama basado en la verdadera historia de una pareja de artistas daneses, Einar y Gerda Wegener. La vida de este matrimonio dio un giro cuando Einar sustituyó a la modelo femenina que su mujer, Gerda, tenía que pintar. Cuando los retratos resultan ser un éxito, ella anima a su marido a adoptar una apariencia femenina. Lo que comenzó como un juego llevó a Einar a una metamorfosis inesperada.",
-        "bigImage": "images/the_danish_girl_big.jpg",
-        "smallImage": "images/the_danish_girl_small.jpg"
+        "bigImage": "assets/images/the_danish_girl_big.jpg",
+        "smallImage": "assets/images/the_danish_girl_small.jpg"
     },
     {
         "title": "El padrino",
         "description": "América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.",
-        "bigImage": "images/the_goodfather_big.jpg",
-        "smallImage": "images/the_goodfather_small.jpg"
+        "bigImage": "assets/images/the_goodfather_big.jpg",
+        "smallImage": "assets/images/the_goodfather_small.jpg"
     }
 ]

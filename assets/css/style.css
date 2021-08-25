@@ -67,6 +67,8 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
+  position: relative;
 }
 
 .slider-list {
@@ -83,6 +85,30 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.slider-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.slider-button:hover {
+  background-color: white;
+}
+
+.slider-button-right {
+  right: 10px;
+}
+
+.slider-button-left {
+  left: 10px;
 }
 
 .card-container {

@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Películas para ti</title>
 </head>
 
 <body>
   <header class="header-content">
     <nav class="navigation-bar">
-      <figure class="logo-container"><a href=""><img class="logo-image" id="logo-image" src="icons/clapperboard.svg"
-            alt="Logo"></a></figure>
+      <figure class="logo-container"><a href=""><img class="logo-image" id="logo-image"
+            src="assets/icons/clapperboard.svg" alt="Logo"></a></figure>
       <ul class="login-container">
         <li class="login-button"><a href="">Iniciar sesión</li></a>
         <li class="login-button"><a href="">Registrarse</a></li>
@@ -23,15 +23,19 @@
   <main class="main-content" , id="main-content">
     <div class="slider-container" id="slider-container">
       <div class="slider-list" id="slider-list"></div>
-      <div class="slider-button slider-button-right">&#60;</div>
-      <div class="slider-button slider-button-left">&#62;</div>
+      <img class="slider-button slider-button-right" id="slider-button-right" src="assets/icons/chevron-right-o.svg"
+        alt="">
+      <img class="slider-button slider-button-left" id="slider-button-left" src="assets/icons/chevron-left-o.svg"
+        alt="">
+      <!-- <div class="slider-button slider-button-right"><img src="icons/chevron-right-r.svg" alt=""></div>
+      <div class="slider-button slider-button-left"><img src="icons/arrow-left-r.svg" alt=""></div> -->
     </div>
     <div class="card-container" id="card-container">
       <div class="card-list" id="card-list"></div>
     </div>
   </main>
   <footer><small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small></footer>
-  <script src="scripts/script.js"></script>
+  <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>
