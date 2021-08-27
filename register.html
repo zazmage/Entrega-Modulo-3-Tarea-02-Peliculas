@@ -24,25 +24,47 @@
 
   <main class="main-content" id="main-content">
     <div class="form-container">
+      <div class="title-container">
+        <h3 class="movie-title">Formulario de registro</h3>
+      </div>
       <form class="register-form">
-        <label class="form-label" for="name">Nombre:</label>
-        <input class="simple-text-box" type="text" name="name" id="name">
-        <label class="form-label" for="last-name">Apellido:</label>
-        <input class="simple-text-box" type="text" name="last-name" id="last-name">
-        <label class="form-label" for="tel">Teléfono:</label>
-        <input class="simple-text-box" type="tel" name="tel" id="tel">
-        <label class="form-label" for="email">Email:</label>
-        <input class="simple-text-box" type="email" name="email" id="email">
-        <label class="form-label" for="address">Dirección:</label>
-        <input class="simple-text-box" type="text" name="address" id="address">
-        <label class="form-label" for="observations">Observaciones:</label>
-        <textarea class="simple-text-box big-text-box" name="observations" id="observations" cols="30"
-          rows="10"></textarea>
-        <input class="send-button" type="button" value="enviar">
+        <table class="form-table">
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="name">Nombre:</label>
+            <td class="table-data"><input class="simple-text-box" type="text" name="name" id="name"></td>
+            </td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="last-name">Apellido:</label></td>
+            <td class="table-data"><input class="simple-text-box" type="text" name="last-name" id="last-name"></td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="tel">Teléfono:</label></td>
+            <td class="table-data"><input class="simple-text-box" type="tel" name="tel" id="tel"></td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="email">Email:</label></td>
+            <td class="table-data"><input class="simple-text-box" type="email" name="email" id="email"></td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="address">Dirección:</label></td>
+            <td class="table-data"><input class="simple-text-box" type="text" name="address" id="address"></td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-data"><label class="form-label" for="observations">Observaciones:</label></td>
+            <td class="table-data">
+              <textarea class="simple-text-box big-text-box" name="observations" id="observations" cols="30" rows="10">
+              </textarea>
+            </td>
+          </tr>
+        </table>
+        <div class="send-button-container">
+          <input class="send-button" type="button" value="Enviar">
+        </div>
       </form>
     </div>
   </main>
-  <footer class="legal-text">
+  <footer class="legal-text register-footer">
     <small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small>
   </footer>
   <script src="scripts/register-script.js"></script>

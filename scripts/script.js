@@ -29,6 +29,7 @@ const loadSlider = (xhr) => {
   const $slider = document.querySelector("#slider-list");
   const $fragment = document.createDocumentFragment();
   const jsonObjects = JSON.parse(xhr.responseText);
+  const $sliderButtons = document.querySelectorAll(".slider-button");
   $slider.style.width = `${jsonObjects.length * 100}%`;
   for (const key in jsonObjects) {
     const $sliderSection = document.createElement("div");
@@ -41,6 +42,28 @@ const loadSlider = (xhr) => {
     $sliderImage.setAttribute("class", "slider-image");
     $sliderImage.addEventListener("click", () => {
       localStorage.setItem("selected-movie", JSON.stringify(jsonObjects[key]));
+    });
+    $sliderImage.addEventListener("mouseover", () => {
+      $sliderButtons.forEach((i) => {
+        i.style.display = "block";
+      });
+    });
+    $sliderImage.addEventListener("mouseout", () => {
+      $sliderButtons.forEach((i) => {
+        i.style.display = "none";
+      });
+    });
+    $sliderButtons.forEach((i) => {
+      i.addEventListener("mouseover", () => {
+        $sliderButtons.forEach((j) => {
+          j.style.display = "block";
+        });
+      });
+      i.addEventListener("mouseout", () => {
+        $sliderButtons.forEach((j) => {
+          j.style.display = "none";
+        });
+      });
     });
     $hyperlink.appendChild($sliderImage);
     $sliderSection.appendChild($hyperlink);
