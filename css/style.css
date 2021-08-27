@@ -40,7 +40,7 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   --text-color: #ffffff;
   --button-color: rgba(255, 255, 255, 0.7);
   --slider-button: rgba(255, 255, 255, 0.1);
-  --slider-button-hover: rgba(255, 255, 255, 0.5);
+  --slider-button-hover: rgba(255, 255, 255, 0.3);
 }
 
 * {
@@ -95,6 +95,10 @@ body {
   background-color: var(--text-color);
 }
 
+.register-container:active {
+  background-color: var(--button-color);
+}
+
 .register-button {
   float: right;
   margin-right: 10px;
@@ -144,6 +148,10 @@ body {
   background-color: var(--slider-button-hover);
 }
 
+.slider-button:active {
+  background-color: var(--slider-button);
+}
+
 .slider-button-right {
   right: 3px;
 }
@@ -160,6 +168,16 @@ body {
   display: inline-block;
   background-color: var(--primary);
   margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-image-container:hover {
+  transform: scale(1.1);
+}
+
+.card-image-container:active {
+  transform: scale(0.9);
 }
 
 .card-hyperlink {
