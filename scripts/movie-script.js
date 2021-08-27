@@ -1,3 +1,6 @@
+// Downloads the selected movie object to the localstorage and uses it to
+// display its title, image, and description.
+
 const selectedMovie = JSON.parse(localStorage.getItem("selected-movie"));
 const $movieTitleContainer = document.querySelector(".movie-title-container");
 const $movieImageContainer = document.querySelector(".movie-image-container");

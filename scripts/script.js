@@ -1,3 +1,4 @@
+// Slide the slider to the right.
 const slideRight = () => {
   let $sliderSectionFirst = document.querySelectorAll(".slider-section")[0];
   let transitionTime = 1;
@@ -11,6 +12,7 @@ const slideRight = () => {
   }, transitionTime * 1000);
 };
 
+// Slide the slider to the left.
 const slideLeft = () => {
   let $sliderSectionAll = document.querySelectorAll(".slider-section");
   let $sliderSectionLast = $sliderSectionAll[$sliderSectionAll.length - 1];
@@ -25,6 +27,9 @@ const slideLeft = () => {
   }, transitionTime * 1000);
 };
 
+// Creates the slider elements, adds their attributes and event listeners
+// to them and adds them to the html document.
+// Load the information of the selected movie to the local storage
 const loadSlider = (xhr) => {
   const $slider = document.querySelector("#slider-list");
   const $fragment = document.createDocumentFragment();
@@ -88,6 +93,9 @@ const loadSlider = (xhr) => {
   });
 };
 
+// Creates the cards elements, adds their attributes and event listeners
+// to them and adds them to the html document.
+// Load the information of the selected movie to the local storage.
 const loadCards = (xhr) => {
   const $card = document.getElementById("card-container");
   const $fragment = document.createDocumentFragment();
@@ -116,6 +124,9 @@ const loadCards = (xhr) => {
   $card.appendChild($fragment);
 };
 
+// Asynchronously load the objects with the movie information stored
+// in the local json file, use this information to load the slider and
+// the cards, also upload a copy to the localstorage.
 (() => {
   const xhr = new XMLHttpRequest();
   xhr.addEventListener("readystatechange", (e) => {

@@ -1,3 +1,4 @@
+// Definition of the user object
 class User {
   constructor(name, lastName, tel, email, address, observations) {
     this.name = name;
@@ -9,6 +10,9 @@ class User {
   }
 }
 
+// Creates a user object based on the information in the form and sends it
+// to the localstorage, checks the previous users and updates the information
+// with the new data.
 const sendUser = () => {
   const $formElements = document.querySelectorAll(".simple-text-box");
   console.log($formElements.length);
@@ -34,5 +38,6 @@ const sendUser = () => {
   }
 };
 
+// Select the submit button of the form and add the event listener
 const $sendButton = document.querySelector(".send-button");
 $sendButton.addEventListener("click", sendUser);
