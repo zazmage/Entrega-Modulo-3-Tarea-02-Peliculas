@@ -19,18 +19,33 @@
       <h1 class="main-title">
         <a href="index.html">Películas para ti</a>
       </h1>
-      <div class="login-container">
-        <a href="register.html" class="login-button">Iniciar sesión</a>
-      </div>
     </nav>
   </header>
 
-  <main class="main-content" , id="main-content">
-    <!-- TODO -->
+  <main class="main-content" id="main-content">
+    <div class="form-container">
+      <form class="register-form">
+        <label class="form-label" for="name">Nombre:</label>
+        <input class="simple-text-box" type="text" name="name" id="name">
+        <label class="form-label" for="last-name">Apellido:</label>
+        <input class="simple-text-box" type="text" name="last-name" id="last-name">
+        <label class="form-label" for="tel">Teléfono:</label>
+        <input class="simple-text-box" type="tel" name="tel" id="tel">
+        <label class="form-label" for="email">Email:</label>
+        <input class="simple-text-box" type="email" name="email" id="email">
+        <label class="form-label" for="address">Dirección:</label>
+        <input class="simple-text-box" type="text" name="address" id="address">
+        <label class="form-label" for="observations">Observaciones:</label>
+        <textarea class="simple-text-box big-text-box" name="observations" id="observations" cols="30"
+          rows="10"></textarea>
+        <input class="send-button" type="button" value="enviar">
+      </form>
+    </div>
   </main>
-  <footer class="legal-text"><small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small>
+  <footer class="legal-text">
+    <small class="copy-rights">Películas para ti © 2021 | todos los derechos reservados</small>
   </footer>
-  <script src="scripts/movie-script.js"></script>
+  <script src="scripts/register-script.js"></script>
 </body>
 
 </html>

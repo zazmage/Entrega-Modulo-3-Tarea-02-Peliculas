@@ -19,7 +19,7 @@ https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=4
 /* CSS HEX 
 https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff
 */
-:root {
+/* :root {
   --rich-black-fogra-39: #0b090aff;
   --eerie-black: #161a1dff;
   --blood-red: #660708ff;
@@ -30,6 +30,12 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
   --light-gray: #d3d3d3ff;
   --cultured: #f5f3f4ff;
   --white: #ffffffff;
+} */
+
+:root {
+  --primary: #0b090aff;
+  --secundary: #660708ff;
+  --text-color: #ffffff;
 }
 
 * {
@@ -37,17 +43,17 @@ https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f
 }
 
 body {
-  background-color: var(--blood-red);
+  background-color: var(--secundary);
 }
 
 .main-content {
-  background-color: var(--blood-red);
-  padding-right: 5%;
-  padding-left: 5%;
+  background-color: var(--secundary);
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 .navigation-bar {
-  background-color: var(--rich-black-fogra-39);
+  background-color: var(--primary);
   margin-bottom: 10px;
   padding: 5px 20px 5px 20px;
 }
@@ -70,15 +76,15 @@ body {
 
 .main-title a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--text-color);
 }
 
-.login-container {
+.register-container {
   float: right;
 }
 
-.login-button {
-  color: var(--white);
+.register-button {
+  color: var(--text-color);
   margin-right: 10px;
 }
 
@@ -119,7 +125,7 @@ body {
 }
 
 .slider-button:hover {
-  background-color: white;
+  background-color: var(--text-color);
 }
 
 .slider-button-right {
@@ -136,18 +142,66 @@ body {
 
 .card-image-container {
   display: inline-block;
+  background-color: var(--primary);
+  margin: 5px;
+}
+
+.card-hyperlink {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card-image {
+  margin: 0;
 }
 
+.movie-image-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 62%;
+}
+
+.movie-image {
+  width: 100%;
+}
+
+.movie-title-container {
+  width: 100%;
+  text-align: center;
+}
+
+.movie-title {
+  color: var(--text-color);
+  font-size: 36px;
+}
+
+.movie-description-container {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.movie-description {
+  color: var(--text-color);
+}
+
+/* .form-container {
+} */
+
 .legal-text {
-  background-color: var(--rich-black-fogra-39);
+  background-color: var(--primary);
   margin-top: 10px;
   padding: 10px;
   text-align: center;
 }
 
 .copy-rights {
-  color: var(--white);
+  color: var(--text-color);
 }

@@ -32,12 +32,18 @@ const loadSlider = (xhr) => {
   $slider.style.width = `${jsonObjects.length * 100}%`;
   for (const key in jsonObjects) {
     const $sliderSection = document.createElement("div");
+    const $hyperlink = document.createElement("a");
     const $sliderImage = document.createElement("img");
     $sliderSection.setAttribute("class", "slider-section");
+    $hyperlink.setAttribute("href", "movieinfo.html");
     $sliderImage.setAttribute("src", jsonObjects[key].bigImage);
     $sliderImage.setAttribute("alt", jsonObjects[key].title);
     $sliderImage.setAttribute("class", "slider-image");
-    $sliderSection.appendChild($sliderImage);
+    $sliderImage.addEventListener("click", () => {
+      localStorage.setItem("selected-movie", JSON.stringify(jsonObjects[key]));
+    });
+    $hyperlink.appendChild($sliderImage);
+    $sliderSection.appendChild($hyperlink);
     $fragment.appendChild($sliderSection);
   }
   $slider.appendChild($fragment);
@@ -64,20 +70,25 @@ const loadCards = (xhr) => {
   const $fragment = document.createDocumentFragment();
   const jsonObjects = JSON.parse(xhr.responseText);
   for (const key in jsonObjects) {
-    const $cardImageContainer = document.createElement("div");
     const $hyperlink = document.createElement("a");
+    const $cardImageContainer = document.createElement("div");
     const $cardImage = document.createElement("img");
-    $cardImageContainer.setAttribute("class", "card-image-container");
+    const $cardTitle = document.createElement("h3");
     $hyperlink.setAttribute("href", "movieinfo.html");
+    $hyperlink.setAttribute("class", "card-hyperlink");
+    $cardImageContainer.setAttribute("class", "card-image-container");
     $cardImage.setAttribute("src", jsonObjects[key].smallImage);
     $cardImage.setAttribute("alt", jsonObjects[key].title);
     $cardImage.setAttribute("class", "card-image");
     $cardImage.addEventListener("click", () => {
       localStorage.setItem("selected-movie", JSON.stringify(jsonObjects[key]));
     });
-    $cardImageContainer.appendChild($hyperlink);
-    $hyperlink.appendChild($cardImage);
-    $fragment.appendChild($cardImageContainer);
+    $cardTitle.setAttribute("class", "card-title");
+    $cardTitle.innerHTML = jsonObjects[key].title;
+    $cardImageContainer.appendChild($cardImage);
+    $cardImageContainer.appendChild($cardTitle);
+    $hyperlink.appendChild($cardImageContainer);
+    $fragment.appendChild($hyperlink);
   }
   $card.appendChild($fragment);
 };
